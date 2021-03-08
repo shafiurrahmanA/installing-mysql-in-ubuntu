@@ -1,0 +1,19 @@
+To install it, update the package index on your server:
+
+"sudo apt update"
+
+Then install the mysql-server package:
+
+"sudo apt install mysql-server"
+
+Configuring MySQL-Run the security script with sudo:
+
+"sudo mysql_secure_installation"
+
+set a password for the MySQL root user. Enter and then confirm a secure password of your choice
+
+To verify use this command:
+
+"sudo mysql"
+
+done!
